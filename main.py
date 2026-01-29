@@ -19,7 +19,11 @@ pages={
      "스트림릿실습":[
         st.Page("스트림릿실습/미디어.py",title="미디어"),
         st.Page("스트림릿실습/text.py",title="text"),
-    ]   
+    ],   
+    "선생님_팁":[
+        st.Page("스트림릿실습/미디어.py",title="미디어"),
+        st.Page("스트림릿실습/text.py",title="text"),
+    ],   
 }
 pg=st.navigation(pages)
 pg.run()
