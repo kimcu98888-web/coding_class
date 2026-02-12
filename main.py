@@ -19,6 +19,7 @@ pages={
      "스트림릿실습":[
         st.Page("스트림릿실습/미디어.py",title="미디어"),
         st.Page("스트림릿실습/text.py",title="text"),
+        st.Page("스트림릿실습/버튼.py",title="버튼"),
     ],   
     "선생님_팁":[
         st.Page("선생님_팁/게임은_나쁜건가.py",title="게임은_나쁜건가.py"),
