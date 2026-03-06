@@ -15,6 +15,7 @@ pages={
     "game":[
         st.Page("game/가위바위보.py",title="가위바위보"),
         st.Page("game/랜덤박스.py",title="랜덤박스"),
+        st.Page("game/행맨게임.py",title="행맨게임"),
     ],
      "스트림릿실습":[
         st.Page("스트림릿실습/미디어.py",title="미디어"),
