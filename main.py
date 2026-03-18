@@ -23,8 +23,12 @@ pages={
         st.Page("스트림릿실습/버튼.py",title="버튼"),
     ],   
     "선생님_팁":[
-        st.Page("선생님_팁/게임은_나쁜건가.py",title="게임은_나쁜건가.py"),
+        st.Page("선생님_팁/게임은_나쁜건가.py",title="게임은_나쁜건가"),
+        st.Page("선생님_팁/ai를_잘_써야하는_이유.py",title="ai를_잘_써야하는_이유"),
     ],   
+    "ai":[
+        st.Page("ai/GPT_따라해보기.py",title="GPT_따라해보기"),
+    ]
 }
 pg=st.navigation(pages)
 pg.run()
